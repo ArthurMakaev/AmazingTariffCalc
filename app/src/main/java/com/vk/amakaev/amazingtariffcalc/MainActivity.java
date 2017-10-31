@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        // найдем View-элементы
+        // 
         textNumber = (EditText) findViewById(R.id.textNumber);
         textPerUnit = (EditText) findViewById(R.id.textPerUnit);
         btnOk = (Button) findViewById(R.id.btnOk);
