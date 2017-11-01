@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?android:attr/colorForeground"
@@ -15,23 +14,23 @@
 
         <EditText
             android:id="@+id/textNumber"
+            android:hint="enter the number of units"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="50dp"
             android:background="@android:color/holo_orange_light"
-            android:hint="@string/number"
             android:text=""
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <EditText
+            android:hint="enter the cost per unit"
             android:id="@+id/textPerUnit"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="50dp"
             android:background="@android:color/holo_orange_light"
-            android:hint="@string/perUnit"
             android:text=""
             android:textAppearance="@style/TextAppearance.AppCompat.Large"></EditText>
 
@@ -41,7 +40,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:background="@android:color/holo_orange_light"
-            android:text="@string/btnOk"></Button>
+            android:text="OK"></Button>
 
         <Button
             android:id="@+id/btnCancel"
@@ -49,23 +48,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:background="@android:color/holo_orange_light"
-            android:text="@string/cancel"></Button>
-
-        <Button
-            android:id="@+id/en"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:background="@android:color/holo_red_dark"
-            tools:text="EN" />
-
-        <Button
-            android:id="@+id/ru"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="right"
-            android:background="?android:attr/colorPrimaryDark"
-            tools:text="RU" />
+            android:text="Cancel"></Button>
     </LinearLayout>
-
 </LinearLayout>

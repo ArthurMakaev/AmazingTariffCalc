@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Удивительный калькулятор показаний</string>
+        <string name="btnOk">ОК</string>
+        <string name="cancel">Отмена</string>
+        <string name="number">Введите количество единиц</string>
+        <string name="perUnit">Введите стоимость одной единицы</string>
+        <string name="total">Суммарная величина</string>
+    </resources>

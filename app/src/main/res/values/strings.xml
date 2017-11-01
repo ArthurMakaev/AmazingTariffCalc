@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AmazingTariffCalc</string>
+    <string name="btnOk">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="number">enter the number of units</string>
+    <string name="perUnit">enter the cost per unit</string>
+    <string name="total">AmazingTariffCalc</string>
 </resources>
